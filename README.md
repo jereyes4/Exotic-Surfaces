@@ -8,6 +8,12 @@ To run these examples, one must compile the "Wahl_Chains" program, place the exe
 
 The output of the program is already included in the repository, as a `.jsonl` file in the `data` folders, and a `.tex` file in the `tables` folders. Furthermore, a compiled `.pdf` file with the tables is also provided.
 
-### Extra Files
+## Extras
 
 The program `MakeMeASection.py` was used in while writing the article. It is a command-line program with a graphical output, that takes indices of various `.jsonl` files and exports those examples in a compact way.
+
+The graphical program `Display.py` found in the repository "Wahl_Chains" is used to see in detail each particular example, including how an original configuration is blown-up, resulting chains and discrepancies.
+
+## Note
+
+Although the "Wahl_Chains" program performs checks to determine whether examples satisfy certain criteria (in our case, nef-ness and effectiveness of the canonical divisor and obstruction), they do not work in all cases as when $p_g = 1$, and may also give false negatives. Either way, all examples in the article were checked by hand for all the required properties.
