@@ -32,3 +32,6 @@
 !Genus1/TestAll.sh
 !Genus1/*.pdf
 !Genus1/*.tex
+
+#Utilities
+!MakeMeASection.py
