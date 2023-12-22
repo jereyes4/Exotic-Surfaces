@@ -1,0 +1,34 @@
+
+# Ignore everything
+*
+
+# Except for stuff,
+!.gitignore
+!LICENSE
+!README.md
+
+# Things for Genus 0
+!Genus0/
+!Genus0/data/
+!Genus0/data/*.jsonl
+!Genus0/tables/
+!Genus0/tables/*.tex
+!Genus0/Tests/
+!Genus0/Tests/*.txt
+!Genus0/analyse.py
+!Genus0/TestAll.sh
+!Genus0/*.pdf
+!Genus0/*.tex
+
+# Things for Genus 1
+!Genus1/
+!Genus1/data/
+!Genus1/data/*.jsonl
+!Genus1/tables/
+!Genus1/tables/*.tex
+!Genus1/Tests/
+!Genus1/Tests/*.txt
+!Genus1/analyse.py
+!Genus1/TestAll.sh
+!Genus1/*.pdf
+!Genus1/*.tex
