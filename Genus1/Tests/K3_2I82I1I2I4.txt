@@ -1,0 +1,71 @@
+Output: data/K3_2I82I1I2I4
+Summary_Output: tables/K3_2I82I1I2I4
+Summary_Style: LaTeX_Table
+
+Single_Chain: Y
+Double_Chain: Y
+Single_QHD: Y
+Double_QHD: Y
+Keep_First: global
+# Search_For: 11
+Search_For: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+
+Nef_Check: print
+Effective_Check: N
+Obstruction_Check: N
+
+Summary_Include_GCD: Y
+LaTeX_Include_Subsection: Y
+
+
+
+Fibers:
+    I8 Fix
+        L_2 E_7 E_8 L_3 E_4 L_1 E_2 E_1
+    I8
+        LL_2 EE_7 EE_8 LL_3 EE_4 LL_1 EE_2 EE_1
+    I1
+        F_1
+    I1
+        F_2
+    I2
+        B1 B2
+    I4
+        L P1 C P2
+
+
+Merge:
+    G_1
+        F_1 F_1
+    G_2
+        F_2 F_2
+
+Sections(-2):
+    E_3 Fix
+        E_2 EE_2 F_1 F_2 B1 C
+    E_5
+        E_4 EE_4 F_1 F_2 B1 L
+    E_6
+        L_2 LL_2 F_1 F_2 B1 L
+    E_9
+        E_8 EE_8 F_1 F_2 B1 C
+
+    M
+        E_4 L_2 EE_4 LL_2 G_1 G_2 B2 B2 C C
+    N
+        E_2 E_8 EE_2 EE_8 G_1 G_2 B2 B2 L L
+
+    MR2
+        E_1 L_3 EE_1 LL_3 G_1 G_2 B1 B1 P2 P2
+    ML1
+        E_7 L_1 EE_7 LL_1 G_1 G_2 B1 B1 P1 P1
+
+    MR1
+        E_1 LL_3 F_1 F_2 B2 P1
+    MMR1
+        EE_1 L_3 F_1 F_2 B2 P1
+
+    ML2
+        E_7 LL_1 F_1 F_2 B2 P2
+    MML2
+        EE_7 L_1 F_1 F_2 B2 P2

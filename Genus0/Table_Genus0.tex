@@ -1,0 +1,107 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{longtable}
+\usepackage{verbatim}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{geometry}
+
+\usepackage{listings}
+\usepackage{xcolor}
+
+\usepackage{pgffor}
+
+\geometry{left=7em, bottom=7em, right=7em, tmargin=7em, headheight=7em}
+%New colors defined below
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+%Code listing style named "mystyle"
+
+\lstdefinelanguage{config}{
+  morekeywords={Try,Fix,Ign,Dis,Di1,Di2,Di3,Di4,Di5,Di6,Di7,Di8,Di9,global,print},
+  morecomment=[l]{\#},
+}
+\lstdefinestyle{mystyle}{
+  backgroundcolor=\color{backcolour},
+  commentstyle=\color{codegreen},
+  keywordstyle=\color{magenta},
+  numberstyle=\tiny\color{codegray},
+  stringstyle=\color{codegray},
+  basicstyle=\ttfamily\footnotesize,
+  breakatwhitespace=false,
+  breaklines=true,
+  captionpos=b,
+  keepspaces=true,
+  numbers=left,
+  numbersep=5pt,
+  showspaces=false,
+  showstringspaces=false,
+  showtabs=false,
+  tabsize=2,
+  inputencoding=utf8,
+  extendedchars=true,
+  literate={á}{{\'a}}1 {é}{{\'e}}1 {í}{{\'i}}1 {ó}{{\'o}}1 {ú}{{\'u}}1
+}
+\lstset{style=mystyle}
+
+
+\setlength{\parindent}{0pt}
+\title{Table of examples with $p_g = 0$}
+\author{\ }
+\date{\today}
+
+\newcommand\FILES{
+    % 9111/$I_9 + 3I_1$,
+    % 8211_v1/$I_8 + I_2 + 2I_1$ v1,
+    % 8211_v2/$I_8 + I_2 + 2I_1$ v2,
+    % 8211_v3/$I_8 + I_2 + 2I_1$ v3,
+    % 81111/$I_8 + 4I_1$,
+    % 6321_v1/$I_6 + I_3 + I_2 + I_1$ v1,
+    % 6321_v2/$I_6 + I_3 + I_2 + I_1$ v2,
+    % 62211/$I_6 + 2I_2 + 2I_1$,
+    % 5511/$2I_5 + 2I_1$,
+    4422_v1/$2I_4 + 2I_2$ v1 %,
+    % 4422_v2/$2I_4 + 2I_2$ v2,
+    % 42222/$I_4 + 4I_2$,
+    % 3333/$4I_3$,
+    % 3IV/$3IV$,
+    % IV_IV_22/$2IV + 2I_2$,
+    % IIs11/$II^* + 2I_1$,
+    % 4s11/$I_4^* + 2I_1$,
+    % IIIs11/$III^* + 2I_1$,
+    % IVsIV/$IV^* + IV$,
+    % IVs31/$IV^* + I_3 + I_1$,
+    % 2s22/$I_2^* + 2I_2$,
+    % 1s41/$I_1^* + I_4 + I_1$,
+    % 0s0s/$2I_0^*$,
+    % Chilean/Chilean
+}
+
+\newcommand{\C}{\mathbb{C}}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\foreach \FILENAME/\TITLE in \FILES {%
+  \section{\TITLE}
+  \IfFileExists{./Descriptions/\FILENAME}{%
+    Description:
+    \input{./Descriptions/\FILENAME}
+  }{}
+  \IfFileExists{./Tests/\FILENAME.txt}{%
+    Input:
+    \lstinputlisting[language=config]{./Tests/\FILENAME.txt}
+  }{}
+  \IfFileExists{./tables/\FILENAME}{%
+    Result:
+    \input{./tables/\FILENAME}
+  }{}
+}
+\end{document}
