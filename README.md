@@ -17,3 +17,36 @@ The graphical program `Display.py` found in the repository "Wahl_Chains" is used
 ## Note
 
 Although the "Wahl_Chains" program performs checks to determine whether examples satisfy certain criteria (in our case, nef-ness and effectiveness of the canonical divisor and obstruction), they do not work in all cases as when $p_g = 1$, and may also give false negatives. Either way, all examples in the article were checked by hand for all the required properties.
+
+## List of examples used in the article
+
+### Genus $0$: Exotic $\mathbb{CP}^2\#4\overline{\mathbb{CP}^2}$
+
+In order of appearance in the paper, we extracted the following examples:
+
+1. $K^2 = 5$ with two chains $(3,1)$ and $(700,257)$. From `4422_v1.jsonl`, index `14074`.
+2. $K^2 = 5$ with two chains $(700,257)$ and $(493,181)$. From `4422_v1.jsonl`, index `14075`.
+3. $K^2 = 5$ with two chains $(700,257)$ and $(700,257)$. From `4422_v1.jsonl`, index `14076`.
+4. $K^2 = 5$ with two chains $(256,75)$ and $(17,5)$. From `4422_v1.jsonl`, index `14073`.
+5. $K^2 = 5$ with two chains $(82,25)$ and $(59,18)$. From `4422_v1.jsonl`, index `14068`.
+6. $K^2 = 5$ with two chains $(89,34)$ and $(26,11)$. From `4422_v1.jsonl`, index `14069`.
+7. $K^2 = 5$ with two chains $(89,34)$ and $(37,11)$. From `4422_v1.jsonl`, index `14070`.
+8. $K^2 = 5$ with two chains $(111,31)$ and $(26,11)$. From `4422_v1.jsonl`, index `14071`.
+
+### Genus $1$: Exotic $3\mathbb{CP}^2\#9\overline{\mathbb{CP}^2}$
+
+9. $K^2 = 10$ with two chains $(19843,5873)$ and $(571,169)$. From `K3_2I82I1I2I4.jsonl`, index `3`.
+10. $K^2 = 10$ with two chains $(513,212)$ and $(121,50)$. From `K3_2I82I1I2I4.jsonl`, index `1`.
+11. $K^2 = 10$ with two chains $(139,41)$ and $(19309,5695)$. From `K3_2I82I1I2I4.jsonl`, index `2`.
+
+### Genus $1$: Exotic $3\mathbb{CP}^2\#8\overline{\mathbb{CP}^2}$
+
+12. $K^2 = 11$ with two chains $(58441,21457)$ and $(42249,15512)$. From `K3_2I82I1I2I4.jsonl`, index `4`.
+13. $K^2 = 11$ with two chains $(88889,33952)$ and $(51584,19703)$. From `K3_2I82I1I2I4.jsonl`, index `5`.
+
+### Genus $1$: Exotic $3\mathbb{CP}^2\#7\overline{\mathbb{CP}^2}$
+
+14. $K^2 = 11$ with two chains $(2687,795)$ and $(436,129)$. From `K3_2I82I1I2I4.jsonl`, index `6`.
+15. $K^2 = 11$ with two chains $(263303,77905)$ and $(436,129)$. From `K3_2I82I1I2I4.jsonl`, index `9`.
+16. $K^2 = 11$ with two chains $(266348,78757)$ and $(487,144)$. From `K3_2I82I1I2I4.jsonl`, index `10`.
+17. $K^2 = 11$ with two chains $(4,1)$ and $(267721,78962)$. From `K3_2I82I1I2I4.jsonl`, index `11`.
