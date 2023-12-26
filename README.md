@@ -20,7 +20,7 @@ Although the "Wahl_Chains" program performs checks to determine whether examples
 
 ## List of examples used in the article
 
-### Genus $0$: Exotic $\mathbb{CP}^2\char"0023 4\overline{\mathbb{CP}^2}$
+### Genus $0$: Exotic $\mathbb{CP}^2\\#4\overline{\mathbb{CP}^2}$
 
 In order of appearance in the paper, we extracted the following examples:
 
@@ -33,18 +33,18 @@ In order of appearance in the paper, we extracted the following examples:
 7. $K^2 = 5$ with two chains $(89,34)$ and $(37,11)$. From `4422_v1.jsonl`, index `14070`.
 8. $K^2 = 5$ with two chains $(111,31)$ and $(26,11)$. From `4422_v1.jsonl`, index `14071`.
 
-### Genus $1$: Exotic $3\mathbb{CP}^2\char"0023 9\overline{\mathbb{CP}^2}$
+### Genus $1$: Exotic $3\mathbb{CP}^2\\#9\overline{\mathbb{CP}^2}$
 
 9. $K^2 = 10$ with two chains $(19843,5873)$ and $(571,169)$. From `K3_2I82I1I2I4.jsonl`, index `3`.
 10. $K^2 = 10$ with two chains $(513,212)$ and $(121,50)$. From `K3_2I82I1I2I4.jsonl`, index `1`.
 11. $K^2 = 10$ with two chains $(139,41)$ and $(19309,5695)$. From `K3_2I82I1I2I4.jsonl`, index `2`.
 
-### Genus $1$: Exotic $3\mathbb{CP}^2\char"0023 8\overline{\mathbb{CP}^2}$
+### Genus $1$: Exotic $3\mathbb{CP}^2\\#8\overline{\mathbb{CP}^2}$
 
 12. $K^2 = 11$ with two chains $(58441,21457)$ and $(42249,15512)$. From `K3_2I82I1I2I4.jsonl`, index `4`.
 13. $K^2 = 11$ with two chains $(88889,33952)$ and $(51584,19703)$. From `K3_2I82I1I2I4.jsonl`, index `5`.
 
-### Genus $1$: Exotic $3\mathbb{CP}^2\char"0023 7\overline{\mathbb{CP}^2}$
+### Genus $1$: Exotic $3\mathbb{CP}^2\\#7\overline{\mathbb{CP}^2}$
 
 14. $K^2 = 11$ with two chains $(2687,795)$ and $(436,129)$. From `K3_2I82I1I2I4.jsonl`, index `6`.
 15. $K^2 = 11$ with two chains $(263303,77905)$ and $(436,129)$. From `K3_2I82I1I2I4.jsonl`, index `9`.
