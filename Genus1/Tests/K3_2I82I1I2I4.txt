@@ -7,8 +7,8 @@ Double_Chain: Y
 Single_QHD: Y
 Double_QHD: Y
 Keep_First: global
-# Search_For: 11
-Search_For: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+# Search_For: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+Search_For: 10 11 12 13 14 15 16 17 18 19
 
 Nef_Check: print
 Effective_Check: N
